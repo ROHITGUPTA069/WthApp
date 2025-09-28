@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+buid.gradle.kts
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle.kts
