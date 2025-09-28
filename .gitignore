@@ -1,20 +1,51 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
+# Created by https://www.toptal.com/developers/gitignore/api/android,gradle,kotlin,jetpackcompose
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,gradle,kotlin,jetpackcompose
+
+### Android ###
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+/build/
+/captures/
 .externalNativeBuild
 .cxx
+
+# Local configuration files
+.idea/
 local.properties
-buid.gradle.kts
-gradle.properties
-gradlew
-gradlew.bat
-settings.gradle.kts
+.DS_Store
+
+# Gradle files
+.gradle/
+build/
+
+# Log Files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Heap Dumps
+*.hprof
+
+# Last build processed R file (res/values/public.xml)
+/app/build/intermediates/res/merged/debug/values/values.xml
+
+# Misc
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/workspace.xml
+.idea/libraries/
+
+# End of https://www.toptal.com/developers/gitignore/api/android,gradle,kotlin,jetpackcompose
